@@ -18,6 +18,8 @@
         else:
             super(CSVDataset, self).__init__(X=X, y=y.astype(int),
                                              y_labels=np.max(y) + 1, **kwargs)
+                                
+        test 
 
 
 参考：http://stackoverflow.com/questions/27609843/pylearn2-csvdataset-typeerror
